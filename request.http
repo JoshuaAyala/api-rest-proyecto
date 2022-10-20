@@ -1,0 +1,12 @@
+###
+POST http://localhost:9000/api/productos/:id HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "RTZ 3090 Ti",
+    "sku": 151654846,
+    "stock": "true",
+    "sucursal": "Alameda",
+    "precio": "18900",
+    "status": "Disponible"
+}
